@@ -1,0 +1,9 @@
+torch
+transformers
+accelerate
+datasets
+kvpress
+llmlingua
+numpy
+matplotlib
+fire>=0.7  # kvpress pins fire<0.7, which breaks on Python 3.13 (Colab); upgrade it
